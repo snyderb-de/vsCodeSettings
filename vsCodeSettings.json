@@ -1,0 +1,129 @@
+{
+    // START of editor settings
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "line",
+    "editor.selectionHighlight": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Cobalt2",
+    "window.zoomLevel": 1,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "files.trimTrailingWhitespace": true,
+    "editor.fontFamily": "'Fira Code iScript', Menlo, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.minimap.renderCharacters":false,
+    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+    // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
+    // Mac/Linux: file:///Users/YOUR-PC-USERNAME/.vscodestyles.css
+    // Windows: file:///C:/Users/YOUR-PC-USERNAME/.vscodestyles.css
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/Bryan.Snyder/.vscodestyles.css"
+    ],
+    "editor.renderWhitespace": "all",
+
+    // END editor customization
+
+    // START workbench customization
+    "editor.acceptSuggestionOnEnter": "off",
+    "explorer.sortOrder": "modified",
+    "files.trimFinalNewlines": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "tab.activeBackground": "#b17c01",
+        "editor.background": "#000000",
+        "statusBar.background": "#000000",
+        "badge.foreground": "#fdfdfd",
+        "badge.background": "#b17c01",
+        "activityBarBadge.background": "#b17c01",
+        "activityBarBadge.foreground": "#fff",
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.statusBar.visible": true,
+    // TODO Highlight Customization
+
+
+    // END TODO Highlight Customization
+    "todohighlight.keywords": [
+        "TODOLONG:",
+        "TODOSHORT:",
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "HACK:",
+            "color": "#000",
+            "isWholeLine": false,
+        },
+        {
+            "text": "REVIEW:",
+            "color": "#000",
+            "isWholeLine": false,
+        },
+        {
+            "text": "FIXME:",
+            "color": #FFF,
+            "backgroundColor": "red",
+            "isWholeLine": true,
+        },
+    ],
+    // START of Cobalt2 comments customization
+    // END of Cobalt2 comments customization
+
+    // START of Beautify & Prettier Settings
+
+        "beautify.language": {
+            "js": {
+                "type": [
+                    "javascript",
+                    "json"
+                ],
+                "filename": [
+                    ".jshintrc",
+                    ".jsbeautifyrc"
+                ],
+            "ext": [
+                "js",
+                "json"
+            ]},
+        // ^^ to set extensions to be beautified using the javascript beautifier
+            "css": [
+                "css",
+                "less",
+                "scss"
+            ],
+            "html": [
+                "htm",
+                "shtml",
+                "html"
+            ]
+        },
+        "[html]": {
+            "editor.defaultFormatter": "HookyQR.beautify"
+        },
+
+        "editor.largeFileOptimizations": false,
+
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+
+        "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+
+        "[css]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "editor.wordWrapColumn": 50
+
+    // END of Beautify & Prettier Settings
+}

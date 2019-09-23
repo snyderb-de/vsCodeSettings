@@ -1,1 +1,3 @@
-vsCodeSettings
+# vsCodeSettings
+
+## my Microsoft VScode settings
